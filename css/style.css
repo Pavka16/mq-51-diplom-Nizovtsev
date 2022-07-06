@@ -66,7 +66,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  padding: 30px 0 25px 0;
+  padding: 30px 0;
 }
 
 .header::after {
@@ -91,8 +91,8 @@ body {
   line-height: 1.6;
   text-align: center;
   margin: auto;
-  padding: 103px 0;
-  max-width: 700px;
+  padding: 120px 0;
+  max-width: 800px;
   text-transform: uppercase;
   color: #ffffff;
 }
@@ -118,7 +118,7 @@ body {
 }
 
 .menu-list-item:nth-child(n + 2) {
-  margin-left: 35px;
+  margin-left: 33px;
 }
 
 .menu-list-item:hover {
@@ -187,20 +187,17 @@ body {
   max-width: 100%;
 }
 
-.post-list-article {
-  margin-left: 30px;
-}
-
+.post-list-article,
 .trend-list-article {
   margin-left: 30px;
 }
 
 .post-list-article-header {
-  padding-bottom: 60px;
+  padding-bottom: 52px;
 }
 
 .trends-top {
-  margin-bottom: 60px;
+  margin-bottom: 64px;
 }
 
 .trends {
@@ -237,14 +234,7 @@ body {
   z-index: -1;
 }
 
-.post-list-link {
-  list-style-type: none;
-  font-family: inherit;
-  font-size: 14px;
-  font-weight: bold;
-  display: flex;
-}
-
+.post-list-link,
 .trend-list-link {
   list-style-type: none;
   font-family: inherit;
@@ -253,12 +243,9 @@ body {
   display: flex;
 }
 
-.post-item-link:nth-child(n + 2) {
-  margin-left: 19px;
-}
-
+.post-item-link:nth-child(n + 2),
 .trend-item-link:nth-child(n + 2) {
-  margin-left: 25px;
+  margin-left: 19px;
 }
 
 .post-item-link:hover,
@@ -267,25 +254,18 @@ body {
 }
 
 .post-link,
-.trend-link{
+.trend-link {
   color: #b59f5b;
   text-decoration: none;
   text-transform: uppercase;
 }
 
-.post-list-title {
-  font-family: inherit;
-  font-weight: bold;
-  font-size: 20px;
-  margin-top: 12px;
-  line-height: 1.2;
-}
-
+.post-list-title,
 .trend-list-title {
   font-family: inherit;
   font-weight: bold;
   font-size: 20px;
-  margin-top: 3px;
+  margin-top: 16px;
   line-height: 1.2;
 }
 
@@ -306,9 +286,9 @@ body {
 }
 
 .trend-list-article {
-  width: 89%;
+  width: 88%;
   border: 3px solid #b59f5b;
-  padding: 20px 30px;
+  padding: 36px 32px;
   margin: 0 auto;
 }
 
@@ -341,7 +321,7 @@ body {
 }
 
 .post-meta {
- /* margin-top: 40px;*/
+  margin-top: 40px;
 }
 
 .post-list-time {
@@ -352,7 +332,7 @@ body {
 
 .author {
   font-weight: bold;
-  margin-left: 5px;
+  margin-left: 15px;
   color: #000000;
   font-family: inherit;
   font-size: 12px;
@@ -383,52 +363,11 @@ p {
   margin-right: auto;
 }
 
-.aside-posts-header {
-  margin-bottom: 43px;
-  padding-bottom: 14px;
-  position: relative;
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  font-family: inherit;
-  font-size: 14px;
-  font-weight: bold;
-  margin-top: 0;
-  text-transform: uppercase;
-  color: #0f0d0e;
-}
-
+.aside-posts-header,
+.section-trends-header,
+.section-shop-header,
 .popup-header {
   margin-bottom: 43px;
-  padding-bottom: 14px;
-  position: relative;
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  font-family: inherit;
-  font-size: 14px;
-  font-weight: bold;
-  margin-top: 0;
-  text-transform: uppercase;
-  color: #0f0d0e;
-}
-
-.section-shop-header {
-  margin-bottom: 43px;
-  padding-bottom: 14px;
-  position: relative;
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  font-family: inherit;
-  font-size: 14px;
-  font-weight: bold;
-  margin-top: 0;
-  text-transform: uppercase;
-  color: #0f0d0e;
-}
-
-.section-trends-header {
   padding-bottom: 14px;
   position: relative;
   display: flex;
@@ -704,6 +643,7 @@ p {
 }
 
 .shop-text {
+  /*font-weight: regular;*/
   font-size: 15px;
   line-height: 1.4;
   padding-bottom: 25px;
@@ -890,6 +830,7 @@ p {
 
 .form-popup-hint {
   display: block;
+ /* font-weight: regular;*/
   margin-bottom: 12px;
 }
 
@@ -1047,11 +988,7 @@ p {
     width: 49%;
   }
 
-  .trend-link-title {
-    font-size: 17px;
-    margin-top: 13px;
-  }
-
+  .trend-link-title,
   .post-list-title {
     font-size: 17px;
     margin-top: 13px;
