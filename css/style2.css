@@ -91,7 +91,7 @@ body {
   line-height: 1.6;
   text-align: center;
   margin: auto;
-  padding: 103px 0;
+  padding: 107px 0;
   max-width: 700px;
   text-transform: uppercase;
   color: #ffffff;
@@ -196,7 +196,7 @@ body {
 }
 
 .post-list-article-header {
-  padding-bottom: 50px;
+  padding-bottom: 55px;
 }
 
 .trends-top {
@@ -277,7 +277,7 @@ body {
   font-family: inherit;
   font-weight: bold;
   font-size: 20px;
-  margin-top: 12px;
+  margin-top: 7px;
   line-height: 1.2;
 }
 
@@ -384,8 +384,8 @@ p {
 }
 
 .aside-posts-header {
-  margin-bottom: 43px;
-  padding-bottom: 14px;
+  margin-bottom: 45px;
+  /*padding-bottom: 14px;*/
   position: relative;
   display: flex;
   justify-content: center;
@@ -398,8 +398,8 @@ p {
   color: #0f0d0e;
 }
 
-.aside-posts-header:nth-child(n+2) {
-  padding-bottom: 20px;
+.aside-posts-header:nth-child(n + 2) {
+  margin-bottom: 20px;
 }
 
 .popup-header {
@@ -471,11 +471,11 @@ p {
 }
 
 .article-last-post:nth-child(n + 2) {
-  margin-top: 22px;
+  margin-top: 20px;
 }
 
 .article-last-post:nth-child(5) {
-  margin-top: 12px;
+  margin-top: 2px;
 }
 
 .article-post-picture {
@@ -509,12 +509,16 @@ p {
 }
 
 .aside-posts:nth-child(n + 2) {
-  margin-top: 78px;
+  margin-top: 40px;
+}
+
+.aside-posts:nth-child(n+4) {
+  margin-bottom: 20px;
 }
 
 .search-form {
   position: relative;
-  margin-top: 42px;
+  margin-top: 40px;
 }
 
 .visually-hidden-text {
@@ -563,7 +567,7 @@ p {
 }
 
 .button-search {
-  width: 48px;
+  width: 46px;
   height: 50px;
   position: absolute;
   border: 2px solid #b59f5b;
@@ -617,7 +621,7 @@ p {
 }
 
 .tags-item:nth-child(n + 2) {
-  margin-left: 5px;
+  margin-left: 10px;
 }
 
 .tags-item:nth-child(n + 4) {
@@ -638,7 +642,7 @@ p {
 .holder-item {
   border-bottom: 2px solid #eeeeee;
   list-style-type: none;
-  padding-bottom: 10px;
+  padding-bottom: 4px;
 }
 
 .holder-link:hover {
