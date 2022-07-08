@@ -126,8 +126,8 @@ body {
 }
 
 .menu-button {
-  width: 1.4em;
-  height: 1em;
+  width: 1em;
+  height: 0.9em;
   border: none;
   padding: 0;
   background-color: transparent;
@@ -1004,7 +1004,7 @@ p {
 @media (min-width: 641px) and (max-width: 1199px) {
   
   .content {
-    margin-top: 50px;
+    margin-top: 40px;
   }
   .menu-list {
     display: none;
@@ -1013,14 +1013,22 @@ p {
   .title {
     font-size: 40px;
     line-height: 1.4;
+    padding: 90px 0 110px 0;
+    max-width: 630px;
   }
 
   .header {
     background-image: url("../images/banner-bg-tablet.jpg");
+    padding: 0;
   }
 
   .header-container {
-    padding: 0 35px;
+    padding: 0 10px;
+  }
+
+  .logo {
+    padding-bottom: 0;
+    width: 160px;
   }
 
   .trends-top {
@@ -1053,6 +1061,15 @@ p {
   .trend {
     box-sizing: border-box;
     width: 49%;
+    min-height: 245px;
+  }
+
+  .trend-list-article:nth-child(-2n+3) {
+    padding-left: 35px;
+  }
+
+  .trend-list-article:nth-child(-2n+4) {
+    padding-right: 35px;
   }
 
   .trend-link-title {
