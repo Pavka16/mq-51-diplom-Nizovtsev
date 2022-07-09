@@ -1108,6 +1108,7 @@ p {
   .post-list-title {
     font-size: 17px;
     margin-top: 12px;
+    margin-right: 10px ;
   }
 
   .post-list-article {
@@ -1140,11 +1141,15 @@ p {
 }
 
 .aside-posts-header {
-  margin-bottom: 48px;
+  margin-bottom: 55px;
+}
+
+.aside-posts-header:nth-child(n+3) {
+  margin-bottom: 30px;
 }
 
 .article-last-post-list {
-  margin-top: -23px;
+/*  margin-top: -23px;*/
 }
 
 .article-last-post:nth-child(n+2) {
@@ -1162,6 +1167,26 @@ p {
 
 .article-last-post-header {
   margin-top: 10px;
+}
+
+.search-form {
+  margin-top: 48px;
+}
+
+.aside-posts-header:after {
+  bottom: -12px;
+}
+
+.aside-posts:nth-child(n+2) {
+  margin-top: 50px;
+}
+
+.button-sumbit {
+  margin-bottom: 10px;
+}
+
+.field-email {
+  margin-top: -20px;
 }
 
 .shop {
