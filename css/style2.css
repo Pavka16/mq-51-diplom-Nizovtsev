@@ -1170,7 +1170,7 @@ p {
 }
 
 .search-form {
-  margin-top: 48px;
+  margin-top: 50px;
 }
 
 .aside-posts-header:after {
@@ -1178,15 +1178,23 @@ p {
 }
 
 .aside-posts:nth-child(n+2) {
-  margin-top: 50px;
+  margin-top: 60px;
 }
 
 .button-sumbit {
-  margin-bottom: 10px;
+  /*margin-bottom: 10px;*/
 }
 
 .field-email {
-  margin-top: -20px;
+  margin-top: -15px;
+}
+
+.tags-item {
+  margin-top: -12px;
+}
+
+.aside-posts:nth-child(n+4) {
+  margin-bottom: 20px;
 }
 
 .shop {
