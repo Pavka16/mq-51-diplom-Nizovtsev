@@ -1200,7 +1200,7 @@ p {
 }
 
 .shop-section:nth-child(n+3) {
-  margin-top: 25px;
+  margin-top: 20px;
  }
 
  .shop-title {
@@ -1209,8 +1209,36 @@ p {
  }
 
  .shop-text {
-  padding: 0;
+  padding: -40px;
  }
+
+ .shop-card {
+  margin-top: -25px;
+  padding: 15px 20px 30px 35px;
+ }
+
+ .shop-bottom {
+  margin-top: 40px;
+ }
+
+ .section-shop-header:after {
+  bottom: -10px;
+ }
+
+ .footer {
+  margin-top: 54px;
+ }
+
+ .social-item:nth-child(n+2) {
+  margin-left: 35px;
+  margin-right: -11px;
+ }
+
+ .copyright-footer {
+  margin-top: 40px;
+  margin-left: 15px;
+ }
+
 }
 
 @media (min-width: 641px) and (max-width: 767px) and (orientation: landscape) {
