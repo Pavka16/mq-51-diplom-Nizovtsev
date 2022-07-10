@@ -1170,7 +1170,7 @@ p {
 }
 
 .search-form {
-  margin-top: 45px;
+  /*margin-top: 45px;*/
 }
 
 .aside-posts-header:after {
@@ -1178,7 +1178,7 @@ p {
 }
 
 .aside-posts:nth-child(n+2) {
-  margin-top: 55px;
+ /* margin-top: 55px;*/
 }
 
 .button-sumbit {
@@ -1190,7 +1190,7 @@ p {
 }
 
 .tags-item {
-  margin-top: -18px;
+  margin-top: -19px;
 }
 
 .tags-item:nth-child(n+4) {
@@ -1198,7 +1198,7 @@ p {
 }
 
 .holder-list {
-  margin-top: 10px;
+  margin-top: -15px;
 }
 
 .aside-posts:nth-child(n+4) {
@@ -1222,10 +1222,6 @@ p {
  .shop-title {
   font-size: 17px;
   padding: 0;
- }
-
- .shop-text {
-  padding: -40px;
  }
 
  .shop-card {
