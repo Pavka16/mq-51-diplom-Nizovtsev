@@ -1153,7 +1153,7 @@ p {
 }
 
 .article-last-post:nth-child(n+2) {
-/*  margin-top: 12px;*/
+  margin-top: 12px;
 }
 
 .article-last-post-time {
@@ -1170,7 +1170,7 @@ p {
 }
 
 .search-form {
-  /*margin-top: 45px;*/
+  margin-top: 55px;
 }
 
 .aside-posts-header:after {
